@@ -1,9 +1,12 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
-const Developer = () => {
-  return (
-    <div>Developer</div>
-  )
+const Developor = () => {
+    return (
+        <Main>
+            Developor
+        </Main>
+    )
 }
 
-export default Developer
+export default Developor
