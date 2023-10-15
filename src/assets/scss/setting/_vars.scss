@@ -9,7 +9,13 @@
     --black400: #444;
     --black500: #000;
 
+    --blackAlpha: #11111100;
     --blackAlpha100: #11111125;
+    --blackAlpha200: #1111114f;
+    --blackAlpha300: #1111116f;
+    --blackAlpha400: #1111118c;
+    --blackAlpha500: #111111c8;
+    
     
     --white: #fff;
     --white100: #efefef;
@@ -19,6 +25,7 @@
     --white500: #fff;
 
     --red: #f00;
+    --red100: #b70208;
     
     // 폰트 셋팅
     font-family: var(--mainfont-nanum), var(--mainfont-nexon);
