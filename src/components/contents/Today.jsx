@@ -23,7 +23,7 @@ const Today = () => {
                     <div className='info'>
                         <span className='author'>
                             <Link to={`/channel/${todayText[0].channelId}`}>
-                                {todayText[0].author}           
+                                {todayText[0].author}
                             </Link>
                         </span>
                         <span className='date'>{todayText[0].date}</span>

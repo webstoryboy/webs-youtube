@@ -10,8 +10,8 @@ const Today = () => {
             title = "추천 영상"
             description="오늘의 추천 유튜브 영상입니다.">
             
-            <section>
-                <h2>🥰 오늘의 추천 개발자입니다.</h2>
+            <section id='todayPage'>
+                <h2>🥰 오늘의 추천 영상입니다.</h2>
 
                 {todayText.map((today, key) => (
                     <div className='today__inner' key={key}>
@@ -31,7 +31,7 @@ const Today = () => {
                             <div className='info'>
                                 <span className='author'>
                                     <Link to={`/channel/${today.channelId}`}>
-                                        {today.author}           
+                                        {today.author}
                                     </Link>
                                 </span>
                                 <span className='date'>{today.date}</span>
@@ -40,8 +40,6 @@ const Today = () => {
                     </div>
                 ))}
             </section>
-
-            
         </Main>
     )
 }
