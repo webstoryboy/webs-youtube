@@ -13,14 +13,14 @@ const Developer = () => {
         }, 300);
     }, []);
 
-    const devekioerPageClass = loading ? 'isLoading' : 'isLoaded';
+    const developoerPageClass = loading ? 'isLoading' : 'isLoaded';
 
     return (
         <Main 
             title = "추천 개발자"
             description="오늘의 추천 개발자 유튜버입니다.">
             
-            <section id='developerPage' className={devekioerPageClass}>
+            <section id='developerPage' className={developoerPageClass}>
                 <h2>😪 추천 개발자를 소개합니다.</h2>
                 <div className='developer__inner'>
                     {developerText.map((developer, key) => (
