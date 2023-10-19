@@ -4,7 +4,7 @@
 YouTube Data API를 활용하여 외부 데이터를 가져오는 방법을 익히고, API 응답을 처리하여 사용자에게 의미 있는 정보를 제공하는 방법을 이해합니다.
 
 ## 완성작 보기
-미리보기 : 
+미리보기 : https://webs-youtube2.netlify.app/
 
 ## 사용스택
 - node.js를 설치하고 사용합니다. 
@@ -12,7 +12,6 @@ YouTube Data API를 활용하여 외부 데이터를 가져오는 방법을 익�
 - youTube Api를 이용하여 데이터를 가져옵니다.
 - rapidapi를 이용하여 데이터를 가져옵니다.
 - netlify를 통해 사이트를 배포합니다.
-- firebase를 통해 사이트를 배포합니다.
 - vercel를 통해 사이트를 배포합니다.
 - git을 사용하여 파일을 관리합니다.
 
